@@ -76,34 +76,34 @@ public class Main {
         for (char digit : digits) {
             switch (digit) {
                 case '0':
-                    numToTextBuilder.append("Zero");
+                    numToTextBuilder.append("Zero ");
                     break;
                 case '1':
-                    numToTextBuilder.append("One");
+                    numToTextBuilder.append("One ");
                     break;
                 case '2':
-                    numToTextBuilder.append("Two");
+                    numToTextBuilder.append("Two ");
                     break;
                 case '3':
-                    numToTextBuilder.append("Three");
+                    numToTextBuilder.append("Three ");
                     break;
                 case '4':
-                    numToTextBuilder.append("Four");
+                    numToTextBuilder.append("Four ");
                     break;
                 case '5':
-                    numToTextBuilder.append("Five");
+                    numToTextBuilder.append("Five ");
                     break;
                 case '6':
-                    numToTextBuilder.append("Six");
+                    numToTextBuilder.append("Six ");
                     break;
                 case '7':
-                    numToTextBuilder.append("Seven");
+                    numToTextBuilder.append("Seven ");
                     break;
                 case '8':
-                    numToTextBuilder.append("Eight");
+                    numToTextBuilder.append("Eight ");
                     break;
                 case '9':
-                    numToTextBuilder.append("Nine");
+                    numToTextBuilder.append("Nine ");
                     break;
             }
         }
