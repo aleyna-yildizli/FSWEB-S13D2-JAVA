@@ -48,7 +48,7 @@ public class Main {
         return totalDivisors == number;
     }
 
-    public static String numberToWords(int num) {
+/*    public static String numberToWords(int num) {
         if (num < 0) {
             return "Invalid Value";
         }
@@ -64,7 +64,53 @@ public class Main {
         }
 
         return result.toString().trim();
+    }*/
+
+    public static String numberToWords(int number) {
+        if (number < 0)
+            return "Invalid Value";
+
+        char[] digits = String.valueOf(number).toCharArray();
+        StringBuilder numToTextBuilder = new StringBuilder();
+
+        for (char digit : digits) {
+            switch (digit) {
+                case '0':
+                    numToTextBuilder.append("Zero ");
+                    break;
+                case '1':
+                    numToTextBuilder.append("One ");
+                    break;
+                case '2':
+                    numToTextBuilder.append("Two ");
+                    break;
+                case '3':
+                    numToTextBuilder.append("Three ");
+                    break;
+                case '4':
+                    numToTextBuilder.append("Four ");
+                    break;
+                case '5':
+                    numToTextBuilder.append("Five ");
+                    break;
+                case '6':
+                    numToTextBuilder.append("Six ");
+                    break;
+                case '7':
+                    numToTextBuilder.append("Seven ");
+                    break;
+                case '8':
+                    numToTextBuilder.append("Eight ");
+                    break;
+                case '9':
+                    numToTextBuilder.append("Nine ");
+                    break;
+            }
+        }
+
+        return numToTextBuilder.toString().trim();
     }
+
 }
 
 
