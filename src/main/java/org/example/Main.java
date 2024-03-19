@@ -107,10 +107,8 @@ public class Main {
                     break;
             }
         }
-
         return numToTextBuilder.toString().trim();
     }
-
 }
 
 
